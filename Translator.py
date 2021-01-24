@@ -1,7 +1,6 @@
 import numpy as np
 import cv2
 import keras
-from keras.preprocessing.image import ImageDataGenerator
 import tensorflow as tf
 
 model = keras.models.load_model(r"Model\\sign_detector_model_2_90.h5")
